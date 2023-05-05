@@ -6,10 +6,11 @@
 
 body {
     background: var(--primary-color);
-
+    color: white; 
+    text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2, p {
     font-family: var(--primary-font);
     
 }
@@ -38,9 +39,8 @@ p {
 }
 
 .hero {
-    color: white; 
     padding: 160px 20px;
-    text-align: center;
+    
 }
 
 .contact-link {
@@ -57,3 +57,10 @@ p {
     transition: 8ms;
     
 }
+
+@media (max-width: 575px) {
+        .rev-mentor-img {
+        display: none;
+      }
+    
+     }
