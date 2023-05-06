@@ -7,12 +7,15 @@
 body {
     background: var(--primary-color);
     color: white; 
+    margin-top: 100px;
     text-align: center;
+    
+ 
 }
 
 h1, h2, p {
     font-family: var(--primary-font);
-    
+    margin: none;
 }
 
 h1, h2 {
@@ -24,8 +27,7 @@ h1 {
     font-size: 80px;   
     font-weight: bold;
     letter-spacing: 8px;
-    margin: 25px;
-}
+    }
 
 h2 {
     font-size: 24px;
@@ -40,11 +42,15 @@ p {
 
 .hero {
     padding: 160px 20px;
-    
+ 
 }
 
-.contact-link {
-    border-radius: 50px;
+.project-img {
+    max-height: 335px;
+}
+
+.navigation-link, .project-link{
+    border-radius: 15px;
     color: #272142;
     font-family: var(--secondary-font);
     font-size: 14px;
@@ -58,9 +64,33 @@ p {
     
 }
 
-@media (max-width: 575px) {
-        .rev-mentor-img {
+@media (max-width: 576px) {
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .hero h1 {
+        font-size: 60px;
+    }
+   h2 {
+        font-size: 18px;
+    }
+    .hero p {
+        font-size: 14px;
+    }
+
+    .project-blurb, .project-img {
         display: none;
-      }
+    }
+  
+    .project-link {
+        display: block;
+          }
+
+    .navigation-link, .project-link {
+        font-size: 10px;
+    }
+
+  }
     
-     }
+     
