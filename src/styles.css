@@ -60,7 +60,10 @@ p {
     padding: 15px 45px;
     text-transform: uppercase;
     transition: 8ms;
-    
+    }
+
+.becca-headshot {
+   margin: 0 auto 20px;
 }
 
 @media (max-width: 576px) {
