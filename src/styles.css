@@ -62,18 +62,13 @@ p {
     transition: 8ms;
     }
 
-.about-container {
-    padding: 100px;
-}
 
 .becca-headshot {
    margin: 0 auto;
 }
 
 @media (max-width: 576px) {
-    .hero, .about-container {
-        padding: 80px 20px;
-    }
+    
 
     h1 {
         font-size: 60px;
@@ -85,6 +80,10 @@ p {
         font-size: 14px;
     }
 
+    .hero {
+       padding: 80px 20px;
+
+    }
     .project-blurb, .project-img, .becca-headshot {
         display: none;
     }
