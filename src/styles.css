@@ -7,8 +7,13 @@
 body {
     background: var(--primary-color);
     color: #f8f9fa;
+    margin-top: 20px;
+    min-width: 330px;
     text-align: center;
-    
+    }
+
+nav {
+    background: #202020;
 }
 
 h1, h2, p {
@@ -67,7 +72,9 @@ p {
 }
 
 @media (max-width: 576px) {
-    
+    body {
+        margin-top: 50px;
+    }
 
     h1 {
         font-size: 60px;
