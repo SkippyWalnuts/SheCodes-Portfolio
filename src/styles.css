@@ -48,26 +48,21 @@ p {
     padding: 160px 20px;
  }
 
-.email-link a{
-    text-decoration: none;
-}
-
-.email-link a:hover {
-    color: var(--accent-color);
-   text-decoration: underline;
-   
-}
 
 .social-links a{
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.social-links a .insta-icon:hover {
+.email-link:hover {
+    color: var(--accent-color);
+}
+
+.insta-icon:hover {
 color: #f14c5e;
 }
 
-.social-links a .linkedin-icon:hover {
+.linkedin-icon:hover {
 color: #0a66c2
 ;
 }
@@ -76,15 +71,12 @@ color: #0a66c2
  color: #9f44ab;
  }
 
-.social-links i:hover {
-    font-size: 17px;
-}
-
 .email-link a, .social-links i{
     color: var(--secondary-color);
-    font-size: 16px;
+    font-size: 18px;
 }
 .email-link a:hover, .social-links i:hover {
+   font-size: 21px;
    transition: ease-in-out, 15ms;
 }
 
