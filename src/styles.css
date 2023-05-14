@@ -2,11 +2,14 @@
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Montserrat', sans-serif;
     --primary-color: #1B1B1B;
+    --secondary-color: #f8f9fa;
+    --accent-color: #31d2f7
+    ;
 }
 
 body {
     background: var(--primary-color);
-    color: #f8f9fa;
+    color: var(--secondary-color);
     margin-top: 20px;
     min-width: 330px;
     text-align: center;
@@ -41,14 +44,34 @@ p {
     line-height: 30px;
  }
 
- footer li {
-    display: inline;
-    list-style: none;
- }
-
 .hero {
     padding: 160px 20px;
- 
+ }
+
+.email-link a{
+    text-decoration: none;
+}
+
+.email-link a:hover {
+   font-weight: bolder; 
+    text-decoration: underline;
+}
+
+.social-links a{
+    padding: 10px;
+}
+
+.social-links i:hover {
+    font-size: 17px;
+}
+
+.email-link a, .social-links i{
+    color: var(--secondary-color);
+    font-size: 16px;
+}
+.email-link a:hover, .social-links i:hover {
+    color: var(--accent-color);
+    transition: ease-in-out, 15ms;
 }
 
 .project-img {
