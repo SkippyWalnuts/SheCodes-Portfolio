@@ -15,7 +15,7 @@ body {
     text-align: center;
     }
 
-nav, footer {
+nav, footer .contact-links{
     background: #202020;
 }
 
@@ -53,13 +53,28 @@ p {
 }
 
 .email-link a:hover {
-   font-weight: bolder; 
-    text-decoration: underline;
+    color: var(--accent-color);
+   text-decoration: underline;
+   
 }
 
 .social-links a{
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+.social-links a .insta-icon:hover {
+color: #f14c5e;
+}
+
+.social-links a .linkedin-icon:hover {
+color: #0a66c2
+;
+}
+    
+.social-links a .git-icon:hover {
+ color: #9f44ab;
+ }
 
 .social-links i:hover {
     font-size: 17px;
@@ -70,8 +85,7 @@ p {
     font-size: 16px;
 }
 .email-link a:hover, .social-links i:hover {
-    color: var(--accent-color);
-    transition: ease-in-out, 15ms;
+   transition: ease-in-out, 15ms;
 }
 
 .project-img {
