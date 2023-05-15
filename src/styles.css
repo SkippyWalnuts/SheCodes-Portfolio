@@ -71,14 +71,14 @@ color: #0a66c2
  color: #9f44ab;
  }
 
- .email-link a, .social-links i, .contact-page-links i{
+ .social-links i, .contact-page-links i{
     color: var(--secondary-color);
 }
 
 .email-link a, .social-links i{
     font-size: 18px;
 }
-.email-link a:hover, .social-links i:hover, .contact-page-links i:hover {
+.social-links i:hover, .contact-page-links i:hover {
    font-size: larger;
    transition: ease-in-out, 15ms;
 }
@@ -140,6 +140,13 @@ color: #0a66c2
 
     .navigation-link, .project-link {
         font-size: 10px;
+    }
+
+    .contact-page-links a{
+        font-size: 10px;
+        margin: none;
+        padding-left: 1px;
+        padding-right: 1px;
     }
 
   }
