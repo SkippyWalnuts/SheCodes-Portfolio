@@ -15,7 +15,7 @@ body {
     text-align: center;
     }
 
-nav, footer .contact-links{
+nav, footer .contact-footer{
     background: #202020;
 }
 
@@ -75,7 +75,7 @@ color: #0a66c2
     color: var(--secondary-color);
 }
 
-.email-link a, .social-links i{
+.social-links i{
     font-size: 18px;
 }
 .social-links i:hover, .contact-page-links i:hover {
@@ -111,6 +111,10 @@ color: #0a66c2
     padding-right: 50px;
 }
 
+.contact-page-mobile {
+    display: none;
+    }
+
 @media (max-width: 576px) {
     body {
         margin-top: 50px;
@@ -143,11 +147,11 @@ color: #0a66c2
     }
 
     .contact-page-links a{
-        font-size: 10px;
-        margin: none;
-        padding-left: 1px;
-        padding-right: 1px;
+        font-size: 35px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
+ 
 
   }
     
