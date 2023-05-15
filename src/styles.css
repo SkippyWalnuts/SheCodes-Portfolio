@@ -72,7 +72,7 @@ color: #0a66c2
  color: #9f44ab;
  }
 
- .social-links i, .contact-page-links i{
+ .social-links i, .contact-page-links i, .shecodes-link {
     color: var(--secondary-color);
 }
 
@@ -102,9 +102,10 @@ color: #0a66c2
     transition: 8ms;
     }
 
-.becca-headshot {
-   margin: 0 auto;
+.shecodes-link a{
+    text-decoration: none;
 }
+
 
 .contact-page-links a{
     font-size: 50px;
@@ -138,7 +139,12 @@ color: #0a66c2
     .project-blurb, .project-img, .becca-headshot {
         display: none;
     }
-  
+
+    .mobile-headshot {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .project-link {
         display: block;
           }
