@@ -67,23 +67,25 @@ color: #0a66c2
 ;
 }
     
-.social-links a .git-icon:hover {
+.git-icon:hover {
  color: #9f44ab;
  }
 
-.email-link a, .social-links i{
+ .email-link a, .social-links i, .contact-page-links i{
     color: var(--secondary-color);
+}
+
+.email-link a, .social-links i{
     font-size: 18px;
 }
-.email-link a:hover, .social-links i:hover {
-   font-size: 21px;
+.email-link a:hover, .social-links i:hover, .contact-page-links i:hover {
+   font-size: larger;
    transition: ease-in-out, 15ms;
 }
 
 .project-img {
     max-height: 335px;
 }
-
 
 .navigation-link, .project-link{
     border-radius: 15px;
@@ -99,9 +101,14 @@ color: #0a66c2
     transition: 8ms;
     }
 
-
 .becca-headshot {
    margin: 0 auto;
+}
+
+.contact-page-links a{
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 @media (max-width: 576px) {
