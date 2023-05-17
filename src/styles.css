@@ -46,9 +46,8 @@ p {
  }
 
 .hero {
-    padding: 160px 20px;
+    padding: 160px 20px 60px;
  }
-
 
 .social-links a{
     padding-left: 10px;
@@ -94,16 +93,16 @@ color: #0a66c2
     font-size: 14px;
     margin-top: 30px;
     padding: 15px 45px;
-    text-transform: uppercase;
     transition: 8ms;
     }
 
-    .navigation-link, .project-link, .code-language {
+    .navigation-link, .project-link, .code-language, .scroll-icon {
     font-family: var(--secondary-font);
     font-size: 10px;
     font-style: normal;
     line-height: 17px;
     letter-spacing: 1px;
+    text-transform: uppercase;
     }
 
 .contact-page-links a{
