@@ -36,11 +36,12 @@ h1 {
     }
 
 h2 {
+    color: var(--accent-color);
     font-size: 24px;
     letter-spacing: 4px;
 }
 
-p {
+h3, p {
     font-size: 18px;
     line-height: 30px;
  }
@@ -54,31 +55,14 @@ p {
     padding-right: 10px;
 }
 
-.email-link:hover {
-    color: var(--accent-color);
-}
-
-.insta-icon:hover {
-color: #f14c5e;
-}
-
-.linkedin-icon:hover {
-color: #0a66c2
-;
-}
-    
-.git-icon:hover {
- color: #9f44ab;
- }
-
- .social-links i, .contact-page-links i, .shecodes-link {
+ .social-links i, .contact-page-links i{
     color: var(--secondary-color);
 }
 
 .social-links i{
     font-size: 18px;
 }
-.social-links i:hover, .contact-page-links i:hover {
+.social-links i:hover, .contact-page-links i:hover, .page-link:hover {
    font-size: larger;
    transition: ease-in-out, 15ms;
 }
@@ -87,7 +71,7 @@ color: #0a66c2
     max-height: 235px;
 }
 
-.navigation-link, .project-link{
+.contact-link, .project-link{
     border-radius: 15px;
     color: #272142;
     font-size: 14px;
@@ -96,7 +80,7 @@ color: #0a66c2
     transition: 8ms;
     }
 
-    .navigation-link, .project-link, .code-language, .scroll-icon {
+    .contact-link, .project-link, .code-language, .scroll-icon {
     font-family: var(--secondary-font);
     font-size: 10px;
     font-style: normal;
@@ -111,9 +95,24 @@ color: #0a66c2
     padding-right: 50px;
 }
 
-.contact-page-mobile {
-    display: none;
+    .email-link:hover, .page-link {
+        color: var(--accent-color);
     }
+    
+    .insta-icon:hover {
+    color: #f14c5e;
+    }
+    
+    .linkedin-icon:hover {
+    color: #0a66c2
+    ;
+    }
+        
+    .git-icon:hover {
+     color: #9f44ab;
+     }
+
+     
 
 @media (max-width: 576px) {
     body {
@@ -147,7 +146,7 @@ color: #0a66c2
         display: block;
           }
 
-    .navigation-link, .project-link {
+    .contact-link, .project-link {
         font-size: 10px;
     }
 
