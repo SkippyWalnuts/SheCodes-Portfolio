@@ -36,7 +36,6 @@ h1 {
     }
 
 h2 {
-    color: var(--accent-color);
     font-size: 24px;
     letter-spacing: 4px;
 }
@@ -67,8 +66,12 @@ h3, p {
    transition: ease-in-out, 15ms;
 }
 
+.content-container {
+    max-width: 950px;
+}
+
 .project-img {
-    max-height: 235px;
+    max-height: 275px;
 }
 
 .contact-link, .project-link{
@@ -149,6 +152,7 @@ h3, p {
     .contact-link, .project-link {
         font-size: 10px;
     }
+   
 
     .contact-page-links a{
         font-size: 35px;
