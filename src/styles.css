@@ -54,7 +54,7 @@ h3, p {
     padding-right: 10px;
 }
 
- .social-links i, .contact-page-links i{
+ .social-links i, .contact-page-links i, .code-language a{
     color: var(--secondary-color);
 }
 
@@ -74,6 +74,8 @@ h3, p {
     max-height: 275px;
 }
 
+
+
 .contact-link, .project-link{
     border-radius: 15px;
     color: #272142;
@@ -83,12 +85,13 @@ h3, p {
     transition: 8ms;
     }
 
-    .contact-link, .project-link, .code-language, .scroll-icon {
+    .contact-link, .project-link, .code-language a, .scroll-icon {
     font-family: var(--secondary-font);
     font-size: 10px;
     font-style: normal;
     line-height: 17px;
     letter-spacing: 1px;
+    text-decoration: none;
     text-transform: uppercase;
     }
 
@@ -143,6 +146,11 @@ h3, p {
     .mobile-headshot {
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .project-p {
+        font-size: smaller;
+    
     }
 
     .project-link {
