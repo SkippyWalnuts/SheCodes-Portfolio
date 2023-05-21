@@ -71,29 +71,29 @@ h3, p {
 }
 
 .project-img {
-    max-height: 275px;
+    max-height: 200px;
+    min-width: 350px;
 }
-
 
 
 .contact-link, .project-link{
     border-radius: 15px;
     color: #272142;
-    font-size: 14px;
     margin-top: 30px;
     padding: 15px 45px;
     transition: 8ms;
     }
 
     .contact-link, .project-link, .code-language a, .scroll-icon {
-    font-family: var(--secondary-font);
-    font-size: 10px;
-    font-style: normal;
-    line-height: 17px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-transform: uppercase;
+        font-family: var(--secondary-font);
+        font-style: normal;
+        font-size: 10px;
+        line-height: 17px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-transform: uppercase;
     }
+
 
 .contact-page-links a{
     font-size: 50px;
@@ -101,7 +101,7 @@ h3, p {
     padding-right: 50px;
 }
 
-    .email-link:hover, .page-link {
+    .email-link:hover, .code-language a:hover, .page-link {
         color: var(--accent-color);
     }
     
