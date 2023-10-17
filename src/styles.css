@@ -41,7 +41,7 @@ h2 {
 }
 
 h3, p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
  }
 
@@ -102,11 +102,7 @@ h3, p {
 }
 
     .email-link:hover, .code-language a:hover, .page-link {
-        color: var(--accent-color);
-    }
-    
-    .insta-icon:hover {
-    color: #f14c5e;
+        color: #f14c5e;
     }
     
     .linkedin-icon:hover {
