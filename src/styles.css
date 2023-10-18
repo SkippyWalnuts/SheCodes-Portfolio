@@ -58,6 +58,13 @@ h3, p {
     color: var(--secondary-color);
 }
 
+.scroll-icon {
+    background-color: rgb(255, 192, 203, 0.1);
+    border-radius: 3px;
+    margin: 0 auto;
+    padding: 8px 0 10px;
+}
+
 .social-links i{
     font-size: 18px;
 }
