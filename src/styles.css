@@ -3,8 +3,7 @@
     --secondary-font: 'Montserrat', sans-serif;
     --primary-color: #1B1B1B;
     --secondary-color: #f8f9fa;
-    --accent-color: #31d2f7
-    ;
+
 }
 
 body {
@@ -52,10 +51,12 @@ h3, p {
 .social-links a{
     padding-left: 10px;
     padding-right: 10px;
+    transition: ease-in-out, 8ms;
 }
 
  .social-links i, .contact-page-links i, .code-language a{
     color: var(--secondary-color);
+    transition: ease-in-out, 8ms;
 }
 
 .scroll-icon {
@@ -65,17 +66,25 @@ h3, p {
     padding: 8px 0 10px;
 }
 
+.about-content {
+    max-width: 80%;
+}
+
 .social-links i{
     font-size: 18px;
 }
-.social-links i:hover, .contact-page-links i:hover, .page-link:hover {
+.social-links i:hover, .contact-page-links i:hover{
    font-size: larger;
-   transition: ease-in-out, 15ms;
 }
 
-.content-container {
-    max-width: 950px;
+.headshots {
+    border: 6px rgb(255, 192, 203, 0.1);
+    border-radius: 3px;
+    border-style: dotted;
+    margin: 0 10px 10px;
+    padding: 0;
 }
+
 
 .project-img {
     max-height: 200px;
@@ -123,7 +132,7 @@ h3, p {
 
      
 
-@media (max-width: 576px) {
+@media (max-width: 700px) {
     body {
         margin-top: 50px;
     }
@@ -142,14 +151,15 @@ h3, p {
        padding: 80px 20px;
 
     }
-    .project-blurb, .project-img, .becca-headshot {
+
+    .about-content {
+        max-width: 100%;
+    }
+
+    .project-blurb, .project-img {
         display: none;
     }
 
-    .mobile-headshot {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
 
     .project-p {
         font-size: smaller;
