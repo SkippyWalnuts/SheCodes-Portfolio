@@ -85,6 +85,10 @@ h3, p {
     padding: 0;
 }
 
+.remove-headshot {
+    display: none;
+}
+
 
 .project-img {
     max-height: 200px;
@@ -132,7 +136,7 @@ h3, p {
 
      
 
-@media (max-width: 700px) {
+@media (max-width: 1077px) {
     body {
         margin-top: 50px;
     }
@@ -150,6 +154,10 @@ h3, p {
     .hero {
        padding: 80px 20px;
 
+    }
+
+    .remove-headshot {
+        display: block;
     }
 
     .about-content {
