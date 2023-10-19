@@ -29,20 +29,25 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 80px;   
-    font-weight: bold;
+    font-size: 75px;   
+    font-weight: 600;
     letter-spacing: 8px;
-    }
+}
 
 h2 {
     font-size: 24px;
     letter-spacing: 4px;
 }
 
-h3, p {
+h3 {
     font-size: 20px;
+}
+
+p {
+    font-size: 18px;
     line-height: 30px;
  }
+
 
 .hero {
     padding: 160px 20px 60px;
@@ -60,14 +65,12 @@ h3, p {
 }
 
 .scroll-icon {
-    background-color: rgb(255, 192, 203, 0.1);
-    border-radius: 3px;
     margin: 0 auto;
     padding: 8px 0 10px;
 }
 
 .about-content {
-    max-width: 80%;
+    margin: 40px auto;
 }
 
 .social-links i{
@@ -77,18 +80,13 @@ h3, p {
    font-size: larger;
 }
 
-.headshots {
+.becca-headshot {
     border: 6px rgb(255, 192, 203, 0.1);
     border-radius: 3px;
     border-style: dotted;
-    margin: 0 10px 10px;
+    max-width: 80%;
     padding: 0;
 }
-
-.remove-headshot {
-    display: none;
-}
-
 
 .project-img {
     max-height: 200px;
@@ -136,16 +134,19 @@ h3, p {
 
      
 
-@media (max-width: 1077px) {
+@media (max-width: 620px) {
     body {
-        margin-top: 50px;
+        margin-top: 150px;
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
     h2 {
         font-size: 18px;
+    }
+    h3 {
+        font-size: 15px;
     }
     p {
         font-size: 14px;
@@ -156,11 +157,11 @@ h3, p {
 
     }
 
-    .remove-headshot {
-        display: block;
+    .about-content {
+        max-width: 100%;
     }
 
-    .about-content {
+    .becca-headshot {
         max-width: 100%;
     }
 
