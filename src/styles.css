@@ -52,17 +52,6 @@ p {
     padding: 160px 20px 60px;
  }
 
-.social-links a{
-    padding-left: 10px;
-    padding-right: 10px;
-    transition: ease-in-out, 8ms;
-}
-
- .social-links i, .contact-page-links i, .code-language a{
-    color: var(--secondary-color);
-    transition: ease-in-out, 8ms;
-}
-
 .scroll-icon {
     margin: 0 auto;
     padding: 8px 0 10px;
@@ -80,13 +69,20 @@ p {
     padding: 0;
 }
 
-.project-img {
-    max-height: 200px;
-    min-width: 350px;
+.social-links a{
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: ease-in-out, 8ms;
 }
+
 .social-links i{
     font-size: 18px;
 }
+ .social-links i, .contact-page-links i, .code-language a{
+    color: var(--secondary-color);
+    transition: ease-in-out, 8ms;
+}
+
 .social-links i:hover, .contact-page-links i:hover{
    font-size: larger;
 }
