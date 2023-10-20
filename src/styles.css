@@ -146,7 +146,7 @@ p {
         font-size: 15px;
     }
     p {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .hero {
@@ -188,7 +188,7 @@ p {
 
   @media (max-width: 575px) {
     .becca-headshot {
-        max-width: 60%;
+        max-width: 70%;
     }
   }
     
