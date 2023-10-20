@@ -185,5 +185,11 @@ p {
  
 
   }
+
+  @media (max-width: 575px) {
+    .becca-headshot {
+        max-width: 60%;
+    }
+  }
     
      
