@@ -9,8 +9,7 @@
 body {
     background: var(--primary-color);
     color: var(--secondary-color);
-    margin-top: 20px;
-    margin-bottom: 100px;
+    margin: 20px 30px 100px;
     min-width: 330px;
     text-align: center;
     }
@@ -71,20 +70,13 @@ p {
 
 .about-content {
     margin: 40px auto;
-}
-
-.social-links i{
-    font-size: 18px;
-}
-.social-links i:hover, .contact-page-links i:hover{
-   font-size: larger;
+    max-width: 850px;
 }
 
 .becca-headshot {
     border: 6px rgb(255, 192, 203, 0.1);
     border-radius: 3px;
     border-style: dotted;
-    max-width: 80%;
     padding: 0;
 }
 
@@ -92,7 +84,12 @@ p {
     max-height: 200px;
     min-width: 350px;
 }
-
+.social-links i{
+    font-size: 18px;
+}
+.social-links i:hover, .contact-page-links i:hover{
+   font-size: larger;
+}
 
 .contact-link, .project-link{
     border-radius: 15px;
@@ -100,17 +97,17 @@ p {
     margin-top: 30px;
     padding: 15px 45px;
     transition: 8ms;
-    }
+}
 
-    .contact-link, .project-link, .code-language a, .scroll-icon {
-        font-family: var(--secondary-font);
-        font-style: normal;
-        font-size: 10px;
-        line-height: 17px;
-        letter-spacing: 1px;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
+.contact-link, .project-link, .code-language a, .scroll-icon {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-size: 10px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 
 .contact-page-links a{
@@ -119,18 +116,17 @@ p {
     padding-right: 50px;
 }
 
-    .email-link:hover, .code-language a:hover, .page-link {
-        color: #f14c5e;
-    }
+.email-link:hover, .code-language a:hover, .page-link {
+    color: #f14c5e;
+}
     
-    .linkedin-icon:hover {
-    color: #0a66c2
-    ;
-    }
+.linkedin-icon:hover {
+    color: #0a66c2;
+}
         
-    .git-icon:hover {
-     color: #9f44ab;
-     }
+.git-icon:hover {
+    color: #9f44ab;
+}
 
      
 
@@ -158,10 +154,6 @@ p {
     }
 
     .about-content {
-        max-width: 100%;
-    }
-
-    .becca-headshot {
         max-width: 100%;
     }
 
