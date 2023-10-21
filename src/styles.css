@@ -20,7 +20,7 @@ nav, footer .contact-footer {
 
 h1, h2, p {
     font-family: var(--primary-font);
-    margin: none;
+
 }
 
 h1, h2 {
@@ -161,16 +161,6 @@ p {
         max-width: 100%;
     }
 
-    .project-blurb, .project-img {
-        display: none;
-    }
-
-
-    .project-p {
-        font-size: smaller;
-    
-    }
-
     .project-link {
         display: block;
           }
@@ -192,6 +182,10 @@ p {
   @media (max-width: 575px) {
     .becca-headshot {
         max-width: 70%;
+    }
+
+    .project-img {
+        display: none;
     }
   }
     
