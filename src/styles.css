@@ -57,9 +57,9 @@ p {
     padding: 8px 0 10px;
 }
 
-.about-content {
+.about-content, .project-content {
     margin: 40px auto;
-    max-width: 850px;
+    max-width: 800px;
 }
 
 .becca-headshot {
@@ -67,6 +67,38 @@ p {
     border-radius: 3px;
     border-style: dotted;
     padding: 0;
+}
+
+.project-img {
+    margin: 10px auto 25px;
+    max-width: 80%;
+}
+
+.contact-link {
+ margin-top: 30px;    
+}
+
+.contact-link, .project-link{
+    border-radius: 15px;
+    color: #272142;
+    padding: 15px 45px;
+    transition: 8ms;
+}
+
+.contact-link, .project-link, .code-language a, .scroll-icon {
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-size: 10px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.contact-page-links a{
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .social-links a{
@@ -85,31 +117,6 @@ p {
 
 .social-links i:hover, .contact-page-links i:hover{
    font-size: larger;
-}
-
-.contact-link, .project-link{
-    border-radius: 15px;
-    color: #272142;
-    margin-top: 30px;
-    padding: 15px 45px;
-    transition: 8ms;
-}
-
-.contact-link, .project-link, .code-language a, .scroll-icon {
-    font-family: var(--secondary-font);
-    font-style: normal;
-    font-size: 10px;
-    line-height: 17px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-
-.contact-page-links a{
-    font-size: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .email-link:hover, .code-language a:hover, .page-link {
