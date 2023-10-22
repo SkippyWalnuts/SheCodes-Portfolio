@@ -71,7 +71,7 @@ p {
 
 .project-img {
     margin: 10px auto 25px;
-    max-width: 80%;
+   
 }
 
 .contact-link {
@@ -181,7 +181,7 @@ p {
 
   @media (max-width: 575px) {
     .becca-headshot {
-        max-width: 70%;
+        max-width: 60%;
     }
 
     .project-img {
