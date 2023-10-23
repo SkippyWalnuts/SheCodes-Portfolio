@@ -42,7 +42,7 @@ h3 {
     font-size: 20px;
 }
 
-p {
+p, .external-link a{
     font-size: 18px;
     line-height: 30px;
  }
@@ -78,14 +78,18 @@ p {
  margin-top: 30px;    
 }
 
+.project-link {
+    margin-bottom: 10px;
+}
+
 .contact-link, .project-link{
     border-radius: 15px;
     color: #272142;
     padding: 15px 45px;
-    transition: 8ms;
+    transition: all ease-in-out 30ms;
 }
 
-.contact-link, .project-link, .code-language a, .scroll-icon {
+.contact-link, .project-link, .scroll-icon {
     font-family: var(--secondary-font);
     font-style: normal;
     font-size: 10px;
@@ -104,23 +108,34 @@ p {
 .social-links a{
     padding-left: 10px;
     padding-right: 10px;
-    transition: ease-in-out, 8ms;
+    transition: all ease-in-out 30ms;
 }
 
 .social-links i{
     font-size: 18px;
 }
- .social-links i, .contact-page-links i, .code-language a{
+ .social-links i, .contact-page-links i {
     color: var(--secondary-color);
-    transition: ease-in-out, 8ms;
+    transition: all ease-in-out 30ms;
 }
 
-.social-links i:hover, .contact-page-links i:hover{
-   font-size: larger;
+.contact-link:hover, .social-links i:hover, .contact-page-links i:hover{
+   transform: scale(1.1);
 }
 
-.email-link:hover, .code-language a:hover, .page-link {
+.external-link {
+    font-family: var(--secondary-font);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all ease-in-out 30ms;
+}
+
+.email-link:hover, .external-link {
     color: #f14c5e;
+}
+
+.external-link:hover {
+    color: var(--secondary-color);
 }
     
 .linkedin-icon:hover {
