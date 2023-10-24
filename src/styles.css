@@ -71,6 +71,12 @@ p, .external-link a{
     padding: 0;
 }
 
+.coding-tools ul{
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+}
+
 .project-img {
      margin: 10px auto 25px;
    
