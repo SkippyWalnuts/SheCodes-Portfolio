@@ -119,15 +119,14 @@ p, .external-link a{
     transition: all ease-in-out 30ms;
 }
 
-.contact-link:hover, .social-links i:hover, .contact-page-links i:hover{
+.contact-link:hover, .social-links i:hover, .project-link:hover, .contact-page-links i:hover{
    transform: scale(1.1);
 }
 
 .external-link {
     font-family: var(--secondary-font);
     text-decoration: none;
-    text-transform: uppercase;
-    transition: all ease-in-out 30ms;
+    transition: ease-in-out 30ms;
 }
 
 .email-link:hover, .external-link {
