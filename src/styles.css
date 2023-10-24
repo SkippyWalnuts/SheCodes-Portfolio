@@ -64,15 +64,15 @@ p, .external-link a{
     max-width: 800px;
 }
 
-.becca-headshot {
-    border: 6px rgb(255, 192, 203, 0.1);
+.becca-headshot, .project-img {
+    border: 8px rgb(255, 192, 203, 0.1);
     border-radius: 3px;
     border-style: dotted;
     padding: 0;
 }
 
 .project-img {
-    margin: 10px auto 25px;
+     margin: 10px auto 25px;
    
 }
 
