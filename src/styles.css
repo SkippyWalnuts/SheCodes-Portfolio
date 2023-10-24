@@ -9,7 +9,7 @@
 body {
     background: var(--primary-color);
     color: var(--secondary-color);
-    margin: 20px 30px 100px;
+    margin: 20px 30px 70px;
     min-width: 330px;
     text-align: center;
     }
@@ -52,13 +52,15 @@ p, .external-link a{
     padding: 160px 20px 60px;
  }
 
-.scroll-icon {
-    margin: 0 auto;
-    padding: 8px 0 10px;
+.scroll-icon a{
+    color: var(--secondary-color);
+    padding: 10px;
+    text-decoration: none;
+    transition: all ease-in-out 30ms;
 }
 
 .about-content, .project-content {
-    margin: 40px auto;
+    margin: 20px auto;
     max-width: 800px;
 }
 
@@ -129,8 +131,8 @@ p, .external-link a{
     transition: ease-in-out 30ms;
 }
 
-.email-link:hover, .external-link {
-    color: #f14c5e;
+.email-link:hover, .external-link, .scroll-icon a:hover {
+    color: #cf4a5ae2;
 }
 
 .external-link:hover {
