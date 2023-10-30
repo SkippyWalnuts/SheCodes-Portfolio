@@ -141,6 +141,10 @@ p, .external-link a{
     color: #cf4a5ae2;
 }
 
+.resume-link:hover {
+   color: #f5f538;
+}
+
 .external-link:hover {
     color: var(--secondary-color);
 }
